@@ -16,7 +16,7 @@ The icons are imported from **font awesome** with a link placed in the header se
 
 A simple style is added to give a better look.
 
-*position: fixed;* is added to the bar: `position: fixed;`.
+The Icon Bar is kept at a Fixed position with: `position: fixed;`.
 
 The bar is pushed to the right: `right: 0;` and top: `top: 0;`.
 
