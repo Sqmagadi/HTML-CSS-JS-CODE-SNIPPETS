@@ -1,4 +1,4 @@
-# HORIZONTAL ICON BAR
+# TOP HORIZONTAL ICON BAR - FULL WIDTH
 
 This simple web page demonstrates how to make a Responsive Horizontal Icon Bar using HTML and CSS.
 
@@ -44,7 +44,7 @@ Feel free to modify the HTML and CSS files to suit your needs.
 
 ## Author
 
-[SQCODES]
+@SQCODES
 
 ## License
 
