@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #04aa6d;
+    --gray-color: #555555;
+    --white-color: #ffffff;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-bar {
+    background-color: var(--gray-color);
+    overflow: auto;
+    float: right;
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 2.5rem;
+    padding: .5em 1em ;
+    transition: all 0.4s ease;
+}
+
+.icon-bar .active {
+    background-color: var(--main-color);
+}
+
+.icon-bar a:hover {
+    background-color: #ff0000;
+}
+
+h1 {
+    text-align: center;
+    clear: right;
+}
+
+@media (max-width: 680px) {
+    html {
+        font-size: 13px;
+    }
+
+    .icon-bar {
+        width: 100%;
+    }
+
+    .icon-bar a {
+        padding: 0.1em 0;
+        width: 25%;
+    }
+}
+
