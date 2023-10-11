@@ -55,7 +55,7 @@ We use `clear: right;` in **h2** so that the content of **h2** sits bellow the i
 
 **STICKY**
 
-<img src="images/sticky.png.png" width= "60%" height= "auto">
+<img src="images/sticky.png" width= "60%" height= "auto">
 
 ### Break Point
 
