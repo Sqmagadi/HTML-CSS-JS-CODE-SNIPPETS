@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #008000;
+    --active-color: #ff0000;
+    --gray-color: #666666;
+    --white-color: #ffffff;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-bar {
+    background-color: var(--gray-color);
+    width: 100px;
+}
+
+.icon-bar a {
+    display: block;
+    padding: .5em;
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.active {
+    background-color: var(--active-color);
+}
+
+.icon-bar a:hover {
+    background-color: var(--main-color);
+}
+
+
+@media (max-width: 720px) {
+    html {
+        font-size: 13px;
+    }
+
+    .icon-bar a {
+        padding: 0.1em 0;
+    }
+}
+
+
