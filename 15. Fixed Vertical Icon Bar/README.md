@@ -1,6 +1,6 @@
 # FIXED VERTICAL ICON BAR LEFT
 
-This simple web page demonstrates how to make a Responsive Vertical Icon Bar using HTML and CSS.
+This simple web page demonstrates how to make a Responsive Vertical Icon Bar using HTML and CSS. The Bar will be fixed at the top left of the page.
 
 ## HTML Structure
 
